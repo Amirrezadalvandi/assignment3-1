@@ -85,6 +85,18 @@ build CMakeFiles/assignment3.dir/customer.cpp.obj: CXX_COMPILER__assignment3_uns
   OBJECT_DIR = CMakeFiles\assignment3.dir
   OBJECT_FILE_DIR = CMakeFiles\assignment3.dir
 
+build CMakeFiles/assignment3.dir/Date.cpp.obj: CXX_COMPILER__assignment3_unscanned_Debug C$:/Users/dalva/Desktop/education/Concordia/winter2025/COEN244/assignment3/Date.cpp || cmake_object_order_depends_target_assignment3
+  DEP_FILE = CMakeFiles\assignment3.dir\Date.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment3.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment3.dir
+
+build CMakeFiles/assignment3.dir/time.cpp.obj: CXX_COMPILER__assignment3_unscanned_Debug C$:/Users/dalva/Desktop/education/Concordia/winter2025/COEN244/assignment3/time.cpp || cmake_object_order_depends_target_assignment3
+  DEP_FILE = CMakeFiles\assignment3.dir\time.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment3.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment3.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target assignment3
@@ -93,7 +105,7 @@ build CMakeFiles/assignment3.dir/customer.cpp.obj: CXX_COMPILER__assignment3_uns
 #############################################
 # Link the executable assignment3.exe
 
-build assignment3.exe: CXX_EXECUTABLE_LINKER__assignment3_Debug CMakeFiles/assignment3.dir/main.cpp.obj CMakeFiles/assignment3.dir/car.cpp.obj CMakeFiles/assignment3.dir/standardcar.cpp.obj CMakeFiles/assignment3.dir/luxurycar.cpp.obj CMakeFiles/assignment3.dir/company.cpp.obj CMakeFiles/assignment3.dir/customer.cpp.obj
+build assignment3.exe: CXX_EXECUTABLE_LINKER__assignment3_Debug CMakeFiles/assignment3.dir/main.cpp.obj CMakeFiles/assignment3.dir/car.cpp.obj CMakeFiles/assignment3.dir/standardcar.cpp.obj CMakeFiles/assignment3.dir/luxurycar.cpp.obj CMakeFiles/assignment3.dir/company.cpp.obj CMakeFiles/assignment3.dir/customer.cpp.obj CMakeFiles/assignment3.dir/Date.cpp.obj CMakeFiles/assignment3.dir/time.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\assignment3.dir

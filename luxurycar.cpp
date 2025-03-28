@@ -17,3 +17,4 @@ void luxurycar::print() const {
     cout << "the luxury car type:" << getType() << endl;
 }
 
+luxurycar::~luxurycar() { }

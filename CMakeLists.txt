@@ -13,4 +13,8 @@ add_executable(assignment3 main.cpp
         company.cpp
         company.h
         customer.cpp
-        customer.h)
+        customer.h
+        Date.cpp
+        Date.h
+        time.cpp
+        time.h)

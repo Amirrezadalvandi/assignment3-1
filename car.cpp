@@ -25,11 +25,12 @@ car::car(const car& anothercar) {
 };
 
 
-int car::getCarid()const            {return Carid;}
-string car::getType()const          {return Type;}
-bool car::getAvailability()const    {return Availability;}
-void car::setCarid(int id1)         {Carid = id1;}
-void car::setType(string type)      {Type = type;}
+int     car::getCarid()const           {return Carid;}
+string  car::getType()const            {return Type;}
+bool    car::getAvailability()const    {return Availability;}
+void    car::setCarid(int id1)         {Carid = id1;}
+void    car::setType(string type)      {Type = type;}
+void    car::setavailability(bool)     {Availability = true;}
 
 void car::print() const
 {

@@ -22,7 +22,7 @@ public:
     car(const car& anothercar);
 
 
-    int getCarid() const;
+    int getCarid() const ;
     string getType() const;
     bool getAvailability() const;
     void setavailability(bool);

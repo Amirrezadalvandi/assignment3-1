@@ -16,28 +16,29 @@ protected:
     string phone;
     string address;
     int number;
-    car* cars; //LIST OF ALL CARS
-    int numcars;
-    int duration;
+    car* rentcars; //LIST OF ALL rented CARS
+    int* duration;
+    int numrentcars;
+    static const int maxrentcars = 10;
+
 public:
     customer    ();
-    customer    (string,string,string,int,int);
-    customer    (const customer&); //copy constructor
+    customer    (string,string,string,int);
+    customer    (const customer&);
     virtual ~customer();
 
     string  getName() const;
     string  getPhone() const;
     string  getAddress() const;
     int     getNumber() const;
-    void    setduration(int);
-    int     getduration() const;
-    void    rentcar(car& c); //we pass by reference to avoid the copy situation
+
+    void    rentcar(car&c,int weeks); //we pass by reference to avoid the copy situation
     void    returncar(car& c); // same reason here
     void    listallcars()const;
     bool    searchcar(string)const;
     bool    searchcar(int)const;
 
-    virtual void print()const=0;
+    virtual void print()const;
 };
 
 

@@ -16,3 +16,4 @@ cout<<"standard car ID: " << getCarid() <<endl;
 cout << "standard car type: " << getType() << endl;
 cout << "car availability: " << getAvailability() << endl;
 }
+standardcar::~standardcar() { }
